@@ -30,3 +30,17 @@ const html2 = `p> lorem ipsum its amet </p>\
  </div>`
 
  console.log(html2)
+
+
+ // Joniukas ir Gretute ejo i miska.
+
+ const berniukas = 'Joniukas';
+ const mergaite = 'Gretute';
+ const vieta = 'miska';
+ const judejimoBudas = 'ejo';
+
+//  const pasaka = berniukas + ' ir ' + mergaite + ' ' + judejimoBudas + ' i ' + vieta + '.';
+
+const pasaka = `${berniukas} ir ${mergaite} ${judejimoBudas} i ${vieta}.`
+
+ console.log(pasaka);
